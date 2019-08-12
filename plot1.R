@@ -10,6 +10,7 @@ energySubset$Date <- as.Date(energySubset$Date, format="%d/%m/%Y")
 ## Plotting the code and setting requred parameters
 hist(energySubset$Global_active_power, main="Global Active Power", 
      xlab="Global Active Power (kilowatts)", ylab="Frequency", col="Red")
+
 #Creating the PNG file with a width of 480 pixels and a height of 480 pixels
 png("plot1.png", width=480, height=480)
 dev.off()

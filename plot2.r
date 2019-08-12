@@ -17,4 +17,4 @@ with(energySubset, {
 })
 #Creating the PNG file with a width of 480 pixels and a height of 480 pixels
 dev.copy(png, file="plot2.png", height=480, width=480)
-dev.off
+dev.off()
